@@ -30,8 +30,8 @@
 
   <section class="kpis">
     <article class="kpi"><div class="eyebrow">Matriculados</div><div class="value">500</div><div class="sub">Personas matriculadas en el programa.</div><span class="delta blue">100% universo</span></article>
-    <article class="kpi"><div class="eyebrow">Participación efectiva</div><div class="value">448</div><div class="sub">Participantes con actividad académica registrada</div><span class="delta green">89.6% de matrícula</span></article>
     <article class="kpi"><div class="eyebrow">Aprobación académica</div><div class="value">399</div><div class="sub">Nota final ≥ 13</div><span class="delta green">89.1% de participantes</span></article>
+    <article class="kpi"><div class="eyebrow">Participación efectiva</div><div class="value">448</div><div class="sub">Participantes con actividad académica registrada</div><span class="delta green">89.6% de matrícula</span></article>
     <article class="kpi"><div class="eyebrow">Aptos preliminares</div><div class="value">364</div><div class="sub">Nota ≥ 13 + 22/22 actividades registradas</div><span class="delta green">81.3% de participantes</span></article>
   </section>
 
@@ -42,16 +42,13 @@
     <article class="kpi"><div class="eyebrow">Formación profesional</div><div class="value">77.6%</div><div class="sub">Titulado, maestría o doctorado declarado</div><span class="delta blue">388 participantes</span></article>
   </section>
 
-  <div class="alert"><div class="icon">!</div><div><b>35 casos para validación.</b><p>Alcanzaron nota aprobatoria, pero registran al menos una actividad sin calificación.</p></div></div>
-
   <section class="grid2">
     <article class="card">
       <div class="card-head"><div><h2>Resultados y estadísticas</h2><p>Situación respecto de matrícula y requisitos de constancia</p></div><span class="tag">n = 500</span></div>
       <div class="status-wrap">
-        <div id="statusDonut" class="donut chart-hover"><div class="donut-center"><strong>72.8%</strong><span>aptos / matrícula</span></div></div>
+        <div id="statusDonut" class="donut chart-hover"><div class="donut-center"><strong>79.8%</strong><span>aptos / matrícula</span></div></div>
         <div class="legend">
-          <div class="legend-row"><span class="dot" style="background:#087A6B"></span><div><b>Aptos preliminares</b><small>Nota ≥13 + 22/22 actividades</small></div><strong>364</strong></div>
-          <div class="legend-row"><span class="dot" style="background:#F59E0B"></span><div><b>Aprobados por validar</b><small>Nota ≥13, actividades incompletas</small></div><strong>35</strong></div>
+          <div class="legend-row"><span class="dot" style="background:#087A6B"></span><div><b>Aprobados</b><small>Nota ≥13 + 22/22 actividades</small></div><strong>399</strong></div>
           <div class="legend-row"><span class="dot" style="background:#D92D20"></span><div><b>Desaprobados</b><small>Participaron y obtuvieron nota &lt;13</small></div><strong>49</strong></div>
           <div class="legend-row"><span class="dot" style="background:#98A2B3"></span><div><b>No asistieron</b><small>Sin participación efectiva</small></div><strong>52</strong></div>
         </div>
@@ -65,7 +62,6 @@
         <div class="funnel-row chart-hover"><label>Participaron</label><div class="track"><div class="fill" style="width:89.6%">89.6%</div></div><strong>448</strong></div>
         <div class="funnel-row chart-hover"><label>Examen final</label><div class="track"><div class="fill" style="width:80%">80.0%</div></div><strong>400</strong></div>
         <div class="funnel-row chart-hover"><label>Aprobaron nota</label><div class="track"><div class="fill" style="width:79.8%">79.8%</div></div><strong>399</strong></div>
-        <div class="funnel-row chart-hover"><label>Aptos prelim.</label><div class="track"><div class="fill" style="width:72.8%">72.8%</div></div><strong>364</strong></div>
       </div>
       <div class="mini-stats"><div class="mini"><b>16.17</b><span>Nota promedio · participantes</span></div><div class="mini"><b>17.53</b><span>Mediana</span></div><div class="mini"><b>292</b><span>Nota ≥17 · 65.2%</span></div></div>
     </article>
@@ -125,7 +121,7 @@
     <article class="card">
       <div class="card-head"><div><h2>Completitud × aprobación</h2><p>El cruce más relevante respecto del requisito del syllabus</p></div><span class="tag">n = 448</span></div>
       <div class="cross-matrix">
-        <div class="cross-row chart-hover" data-cross="complete"><label>22/22 actividades</label><div class="stack"><div class="ok" style="width:100%">364 aprobados</div></div><strong>100%</strong></div>
+        <div class="cross-row chart-hover" data-cross="complete"><label>22/22 actividades</label><div class="stack"><div class="ok" style="width:100%">364 participantes</div></div><strong>100%</strong></div>
         <div class="cross-row chart-hover" data-cross="incomplete"><label>Incompletos</label><div class="stack"><div class="ok" style="width:41.7%">35</div><div class="bad" style="width:58.3%">49</div></div><strong>41.7%</strong></div>
       </div>
       <div class="module-foot"><span>Los <b>364 participantes</b> que completaron las 22 actividades alcanzaron nota aprobatoria.</span></div>
@@ -144,14 +140,13 @@
     <article class="insight"><div class="n">24/25</div><b>Alcance prácticamente nacional</b><p>El programa reunió participantes de 24 ámbitos departamentales; solo Madre de Dios no registra matrícula.</p></article>
     <article class="insight"><div class="n">100%</div><b>Completitud asociada a aprobación</b><p>Los 364 participantes con las 22 actividades registradas obtuvieron nota final aprobatoria.</p></article>
     <article class="insight"><div class="n">15.31</div><b>Módulo II, principal brecha</b><p>Es el examen con menor promedio; el Módulo IV (17.07) y el examen final (16.73) también requieren seguimiento.</p></article>
-    <article class="insight"><div class="n">35</div><b>Validación</b><p>Alcanzaron nota ≥13, pero presentan actividades sin desarrollar.</p></article>
   </section>
 
-  <details class="card details-card">
+  <!--<details class="card details-card">
     <summary class="details-summary"><div class="details-title"><b>Casos que requieren validación</b><span>Solo se muestran nombres y datos académicos indispensables. No incluye DNI ni correo.</span></div><span class="count-pill">35 casos</span></summary>
     <div class="table-tools"><input id="caseSearch" class="search" oninput="filterCases()" placeholder="Buscar participante, región, institución o actividad…"><span class="tag">No compartir públicamente</span></div>
     <div class="table-wrap"><table class="case-table"><thead><tr><th>Participante</th><th>Nota</th><th>Región</th><th>Institución</th><th>Grado</th><th>Pend.</th><th>Actividades sin registro</th></tr></thead><tbody id="caseRows"></tbody></table></div>
-  </details>
+  </details>-->
 
   <div class="footer"><div><b>Fuente:</b> PEGA 2026-I (matrícula y calificaciones) · Elaboración ejecutiva por la DGAA-iegp.</div><div>Mapa: límites departamentales GeoJSON Perú (25 departamentos, incluido Callao) · visualización referencial. La tasa de aprobación usa como base participantes efectivos.<br>@Copyrigth - Setiembre 2026</div></div>
 </div>
